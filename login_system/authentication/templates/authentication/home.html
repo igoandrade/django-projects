@@ -1,0 +1,11 @@
+{% extends 'authentication/base.html' %}
+
+{% block title %}Login System{% endblock %}
+
+{% block content %}
+<h1>Geeks for Geeks</h1>
+
+{% if user.is_authenticated %}
+<h2>Olá, {{ user.first_name }}!</h2>
+{% endif %}
+{% endblock %}
