@@ -6,7 +6,7 @@ function add_carro(){
     <br>
     <div class='row'>
         <div class='col-md py-2'> 
-            <input type='text' placeholder='carro' class='form-control' name='carro'>
+            <input type='text' placeholder='Modelo' class='form-control' name='modelo'>
         </div> 
         <div class='col-md py-2'>
             <input type='text' placeholder='Placa' class='form-control' name='placa'>
